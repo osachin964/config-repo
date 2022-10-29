@@ -37,7 +37,7 @@ spring:
             - Path=/paymentservice/**
 
         - id: Owner-service
-          uri: http://localhost:8086/
+          uri: http://localhost:8092/
           predicates:
             - Path=/ownerService/**
 
