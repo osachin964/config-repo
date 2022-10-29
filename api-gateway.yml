@@ -39,7 +39,7 @@ spring:
         - id: Owner-service
           uri: http://localhost:8086/
           predicates:
-            - Path=/ownerservice/**
+            - Path=/ownerService/**
 
         - id: customer-service
           uri: http://localhost:8084/
